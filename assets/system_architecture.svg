@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Cools 3D Optical Matrix Engine architecture</title>
+  <desc id="desc">A two-dimensional source plane sends light through a three-dimensional refractive-index weight volume to a two-dimensional detector plane, with thermal vias and a high-conductivity handle below.</desc>
+  <defs>
+    <linearGradient id="host" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#edf7ff"/>
+      <stop offset="1" stop-color="#d9e8ff"/>
+    </linearGradient>
+    <linearGradient id="source" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#ff7b54"/>
+    </linearGradient>
+    <linearGradient id="detector" x1="0" x2="1">
+      <stop offset="0" stop-color="#53c6a4"/>
+      <stop offset="1" stop-color="#2b8a78"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#31547a"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#001b33" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#17324d">Cools 3D Optical Matrix Engine</text>
+  <text x="600" y="82" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#4c657c">2D source plane → 3D rewritable weight volume → 2D signed / complex detector plane</text>
+
+  <g filter="url(#shadow)">
+    <rect x="250" y="120" width="700" height="90" rx="18" fill="url(#detector)"/>
+    <text x="600" y="153" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">2D DETECTOR PLANE</text>
+    <text x="600" y="183" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#ecfffa">Differential signed readout · interferometric complex readout</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="250" y="240" width="700" height="300" rx="22" fill="url(#host)" stroke="#6e9bc4" stroke-width="2.5"/>
+    <text x="600" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1d486f">TRANSPARENT HIGH-CONDUCTIVITY OPTICAL HOST</text>
+    <text x="600" y="304" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#4d6f8d">Discrete refractive-index features distributed through the volume</text>
+
+    <g fill="#6a45c2" stroke="#4b2f96" stroke-width="1.5">
+      <circle cx="360" cy="348" r="16"/><circle cx="455" cy="390" r="12"/><circle cx="540" cy="340" r="14"/>
+      <circle cx="650" cy="386" r="18"/><circle cx="760" cy="340" r="11"/><circle cx="845" cy="410" r="15"/>
+      <circle cx="395" cy="470" r="13"/><circle cx="515" cy="445" r="17"/><circle cx="615" cy="488" r="12"/>
+      <circle cx="735" cy="465" r="16"/><circle cx="865" cy="490" r="10"/>
+    </g>
+    <g fill="#ffcf57" stroke="#d29718" stroke-width="1.5">
+      <rect x="430" y="320" width="25" height="25" rx="5"/><rect x="575" y="410" width="28" height="28" rx="5"/>
+      <rect x="790" y="445" width="24" height="24" rx="5"/><rect x="700" y="315" width="22" height="22" rx="5"/>
+    </g>
+    <text x="825" y="520" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4f367f">rewritable weight voxels</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="250" y="565" width="700" height="85" rx="18" fill="url(#source)"/>
+    <text x="600" y="598" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff">2D INDIVIDUALLY ADDRESSABLE SOURCE PLANE</text>
+    <text x="600" y="627" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#fff6e9">Input vector encoded as spatial optical intensity / field</text>
+  </g>
+
+  <g>
+    <rect x="250" y="670" width="700" height="45" rx="10" fill="#424b55"/>
+    <text x="600" y="699" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">HIGH-THERMAL-CONDUCTIVITY HANDLE · EMBEDDED VIAS · COOLING PATH</text>
+    <g stroke="#7bd2ff" stroke-width="8">
+      <line x1="360" y1="650" x2="360" y2="670"/><line x1="480" y1="650" x2="480" y2="670"/>
+      <line x1="600" y1="650" x2="600" y2="670"/><line x1="720" y1="650" x2="720" y2="670"/><line x1="840" y1="650" x2="840" y2="670"/>
+    </g>
+  </g>
+
+  <g stroke="#31547a" stroke-width="3" fill="none" marker-end="url(#arrow)" opacity="0.85">
+    <path d="M350 565 C360 515, 390 330, 390 210"/>
+    <path d="M470 565 C490 505, 530 350, 535 210"/>
+    <path d="M600 565 C600 505, 620 350, 620 210"/>
+    <path d="M730 565 C710 505, 700 350, 700 210"/>
+    <path d="M850 565 C830 510, 800 340, 810 210"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#17324d">
+    <text x="85" y="360" font-size="19" font-weight="700">ONE-PASS</text>
+    <text x="85" y="386" font-size="19" font-weight="700">LINEAR</text>
+    <text x="85" y="412" font-size="19" font-weight="700">TRANSFORM</text>
+    <line x1="180" y1="390" x2="235" y2="390" stroke="#31547a" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+</svg>
