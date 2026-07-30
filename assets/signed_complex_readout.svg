@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Signed and complex optical matrix readout</title>
+  <desc id="desc">Positive and negative optical outputs are differentially detected, while a coherent reference beam enables interferometric recovery of complex optical outputs.</desc>
+  <defs>
+    <linearGradient id="vol" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#eaf5ff"/><stop offset="1" stop-color="#d9e7fb"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#31547a"/></marker>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#001b33" flood-opacity="0.16"/></filter>
+  </defs>
+  <rect width="1200" height="650" fill="#ffffff"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#17324d">Signed and Complex Optical Matrix Readout</text>
+  <text x="600" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#506a80">Detector architecture restores mathematical sign and optical phase</text>
+
+  <line x1="600" y1="105" x2="600" y2="605" stroke="#c3d3e2" stroke-width="2"/>
+
+  <g filter="url(#shadow)">
+    <rect x="45" y="120" width="510" height="455" rx="24" fill="#f8fbfe" stroke="#8ba9c3" stroke-width="2"/>
+    <text x="300" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d486f">SIGNED REAL OUTPUT</text>
+    <text x="300" y="187" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#506a80">Differential detection of positive and negative matrix components</text>
+
+    <rect x="92" y="240" width="145" height="170" rx="16" fill="url(#vol)" stroke="#6e9bc4" stroke-width="2"/>
+    <text x="164" y="266" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#31547a">WEIGHT VOLUME</text>
+    <g fill="#6e4bc3"><circle cx="130" cy="305" r="10"/><circle cx="180" cy="330" r="12"/><circle cx="145" cy="370" r="9"/><circle cx="205" cy="385" r="11"/></g>
+
+    <line x1="237" y1="290" x2="300" y2="255" stroke="#31547a" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="237" y1="360" x2="300" y2="398" stroke="#31547a" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="305" y="215" width="135" height="92" rx="14" fill="#47a98f"/>
+    <text x="372" y="248" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">W⁺ CHANNEL</text>
+    <text x="372" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ebfff9">positive output</text>
+
+    <rect x="305" y="360" width="135" height="92" rx="14" fill="#e06b63"/>
+    <text x="372" y="393" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">W⁻ CHANNEL</text>
+    <text x="372" y="421" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#fff1ef">negative output</text>
+
+    <line x1="440" y1="260" x2="475" y2="310" stroke="#31547a" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="440" y1="405" x2="475" y2="352" stroke="#31547a" stroke-width="3" marker-end="url(#arrow)"/>
+    <circle cx="495" cy="331" r="36" fill="#31547a"/>
+    <text x="495" y="342" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#ffffff">−</text>
+    <text x="300" y="505" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#17324d">W = W⁺ − W⁻</text>
+    <text x="300" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#506a80">Balanced photocurrent subtraction before digitization</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="645" y="120" width="510" height="455" rx="24" fill="#f8fbfe" stroke="#8ba9c3" stroke-width="2"/>
+    <text x="900" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" fill="#1d486f">COMPLEX OUTPUT</text>
+    <text x="900" y="187" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#506a80">Interferometric recovery of optical amplitude and phase</text>
+
+    <rect x="685" y="265" width="140" height="150" rx="16" fill="url(#vol)" stroke="#6e9bc4" stroke-width="2"/>
+    <text x="755" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#31547a">TRANSFORMED</text>
+    <text x="755" y="314" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#31547a">FIELD</text>
+    <path d="M710 355 C730 320, 750 390, 770 350 C790 310, 805 370, 815 345" fill="none" stroke="#6e4bc3" stroke-width="4"/>
+
+    <rect x="685" y="205" width="140" height="42" rx="12" fill="#ffb03a"/>
+    <text x="755" y="232" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#5c3300">REFERENCE BEAM</text>
+
+    <line x1="825" y1="340" x2="880" y2="340" stroke="#31547a" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="825" y1="226" x2="892" y2="310" stroke="#d18000" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="885" y="285" width="115" height="110" rx="17" fill="#31547a"/>
+    <text x="942" y="326" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">OPTICAL</text>
+    <text x="942" y="351" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#ffffff">HYBRID</text>
+    <text x="942" y="376" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#dceeff">0° · 90° · 180° · 270°</text>
+
+    <line x1="1000" y1="340" x2="1040" y2="340" stroke="#31547a" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="1045" y="265" width="80" height="150" rx="15" fill="#6d47be"/>
+    <text x="1085" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#ffffff">I / Q</text>
+    <text x="1085" y="332" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#f5f0ff">balanced</text>
+    <text x="1085" y="354" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#f5f0ff">detectors</text>
+    <text x="1085" y="385" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#ffffff">Re + Im</text>
+
+    <text x="900" y="486" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#17324d">Amplitude + phase → complex matrix result</text>
+    <text x="900" y="520" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#506a80">Homodyne · heterodyne · phase-stepped detection</text>
+  </g>
+
+  <text x="600" y="625" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#31547a">The readout layer is independent of the internal implementation of the optical weight medium</text>
+</svg>
